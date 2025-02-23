@@ -7,7 +7,6 @@ class Student extends Person {
 	private String highschool;
 	private LocalDate enrollmentDate;
 	private List<Course> courses;
-	private LocalDate dateEnteredUniversity;
 
 	public Student(String id, String name, LocalDate birthdate, Place birthplace, String highschool, LocalDate enrollmentDate, List<Course> courses) {
 		super(id, name, birthdate, birthplace);

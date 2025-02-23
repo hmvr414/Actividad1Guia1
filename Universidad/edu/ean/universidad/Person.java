@@ -7,7 +7,6 @@ class Person {
 	private String name;
 	private LocalDate birthdate;
 	private Place birthplace;
-	private LocalDate dateOfBirth;
 
 	public Person(String id, String name, LocalDate birthdate, Place birthplace) {
 		this.id = id;
@@ -47,5 +46,4 @@ class Person {
 	public void setBirthplace(Place birthplace) {
 		this.birthplace = birthplace;
 	}
-
 }
